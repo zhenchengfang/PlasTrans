@@ -124,7 +124,7 @@ Header | Length | Score |Transmissibility |
 
 
 **Note:**
-(1) The current version of PPR-Meta uses “comma-separated values (CSV)” as the format of the output file. Please use “.csv” as the extension of the output file. PPR-Meta will automatically add the “.csv” extension to the file name if the output file does not take “.csv” as its extension”.
+(1) The current version of PlasTrans uses “comma-separated values (CSV)” as the format of the output file. Please use “.csv” as the extension of the output file. PlasTrans will automatically add the “.csv” extension to the file name if the output file does not take “.csv” as its extension”.
 (2) The program allows run mutiple tasks in parallel. However, running mutiple same tasks (with the same input file under the same '-t' and '-b' setting will throw error. 
 
 
