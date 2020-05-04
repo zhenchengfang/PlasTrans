@@ -96,7 +96,7 @@ PlasTrans is designed to distinguish the transmissible plasmid-derived sequences
     
   Please remember to set the working path of MATLAB to PlasTrans folder before running the programe.
   
-### 3. Run PPR-Meta with specified threshold (-t option)
+### 3. Run PlasTrans with specified threshold (-t option)
 
   Given a specified threshold t (0<t<0.5), a sequence with a score falling into the interval of |score-0.5|<t will be labelled as uncertain, and the remaining predictions will be more reliable. For example, if you want to get reliable predictions in the file "example.fna", you can take 0.2 as the threshold. Please run PPR_Meta using -t option:
   
