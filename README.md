@@ -117,7 +117,7 @@ The default value of -b is 10000.
   
 ## Output
 
-The output of PPR-Meta consists of six columns:
+The output of PlasTrans consists of four columns:
 
 Header | Length | Score |Transmissibility |
 ------ | ------ | ----- | --------------- |
