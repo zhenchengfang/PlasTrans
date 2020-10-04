@@ -80,7 +80,7 @@ PlasTrans is designed to distinguish the transmissible plasmid-derived sequences
   
     ./PlasTrans <input_file_folder>/input_file.fna <output_file_folder>/output_file.csv
     
-  The input file must be in fasta format containing the sequences to be identified. For example, users can use the file "example.fna" in the folder to test PPR-Meta by simply executing the command:
+  The input file must be in fasta format containing the sequences to be identified. For example, users can use the file "example.fna" in the folder to test PlasTrans by simply executing the command:
   
     ./PlasTrans example.fna result.csv
     
@@ -121,6 +121,8 @@ The output of PlasTrans consists of four columns:
 
 Header | Length | Score |Transmissibility |
 ------ | ------ | ----- | --------------- |
+
+A sequence with a higher score is more likely to be transmissible. By default, a sequence with a score higher than 0.5 will be predicted as transmissible plasmid.
 
 
 **Note:**
